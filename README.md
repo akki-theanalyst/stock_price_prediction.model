@@ -25,28 +25,14 @@ My aim is to analyze stock market price data for HDFC bank, SBI bank, ICICI bank
 
 the project is organized as follows:
 
-stock_price_prediction/
-├── eda/
-│   ├── eda_stock_market_price_.ipynb
-│   └── figures/
-├── Inputs/
-    hdfc_bank_data.csv
-    icici_bank_data.csv
-    sbi_bank_data.csv   
-├── outputs/
-│   ├── icici_scaler.pkl
-│   ├── sbi_scale.pkl
-│   ├── scaler.pkl
-│   ├── stock_price_hdfc_model.keras
-│   ├── stock_price_sbi_model.keras
-│   ├── stock_price_rnn_icici_model.keras
-├── README.md
-├── downloading_relevant_data.ipynb
-├── main_train_hdfc.py
-├── main_train_sbi.py
-├── main_train_icici.ipynb
-├── requirements.txt
-
+```Stock_price_prediction/
+├── input/             # Raw CSV data files
+├── EDA/               # EDA notebooks, scripts, and saved PNG graphs
+├── output/            # Trained model files (.pkl, .keras)
+├── scripts/           # Python scripts for data download and model training
+├── requirements.txt   # Project dependencies
+├── main.py            # Entry point if needed
+└── README.md          # Project documentation
 
 
 
